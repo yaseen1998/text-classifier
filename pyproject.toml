@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "text-classifier"
+version = "0.1.0"
+description = ""
+authors = ["yaseen1998 <yasseenkouthe@eng.hu.edu>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+matplotlib = "^3.5.0"
+jupyterlab = "^3.2.4"
+scikit-learn = "^1.0.1"
+pandas = "^1.3.4"
+keras = "^2.7.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
